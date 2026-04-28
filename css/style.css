@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+main {   
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 6px;
+    width: 600px;
+    padding: 12px;
+    margin-top: 40px;
+    background-color: #f0eeee;
+}
+h1 {
+    text-align: start;
+}
+p {
+    text-align: start;
+}
+table {
+    border-collapse: collapse;
+    padding: 5px;
+}
+table th,
+table td {
+    border-bottom: 1px solid rgb(216, 213, 213);
+}
+table thead tr th{
+    padding: 10px;
+    background-color: rgb(218, 217, 217);
+}
+table thead tr:first-child th {
+    border-top: none;
+}
+
+table tbody tr td{
+    padding: 8px;
+}
+.email {
+    color: rgb(24, 154, 197);
+    font-weight: bold;
+}
+table tfoot td{
+    background-color: rgb(218, 217, 217);
+    border-bottom: none;
+    padding: 8px;
+    text-align: center;
+}
